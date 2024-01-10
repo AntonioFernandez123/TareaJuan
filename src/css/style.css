@@ -1,0 +1,155 @@
+/* Font Awesome */
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+/* HEADER */
+.header {
+   width: 100%;
+   display: flex;
+}
+
+.escudo {
+   width: 30px;
+   padding-top: 15px;
+}
+
+.head-1 {
+   width: 8%;
+   padding-left: 20px;
+}
+
+.head-2 {
+   width: 46%;
+}
+
+.head-3 {
+   width: 46%;
+   display: flex;
+   flex-direction: row;
+   padding-top: 17px;
+}
+
+.head-3 p {
+   margin-right: 60px;
+}
+/* FINAL HEADER */
+
+
+/* FOOTER */
+.footer {
+   background-color: rgb(52 152 0);
+   width: 100%;
+}
+
+.footer * {
+   color: black;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+}
+
+.footer-2 {
+   margin-top: -20px;
+}
+
+.footer-2 .container {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+.footer-2 .container .lineaFooter {
+   width: 35%;
+   height: 0px;
+}
+
+.footer-2 .container li {
+   display: inline;
+   padding: 10px;
+}
+
+.footer-3 {
+   text-align: center;
+   padding-bottom: 10px;
+}
+/* FINAL FOOTER */
+
+
+/* INDEX */
+.bodyIndex {
+   padding-top: 10px;
+   padding-bottom: 30px;
+   background-color: rgb(153 1 102);
+   width: 100%;
+   color: white;
+}
+
+.titulo-index {
+   text-align: center;
+}
+
+.piscina {
+   display: flex;
+   width: 100%;
+}
+
+.piscina-1 {
+   padding-left: 50px;
+   width: 50%;
+}
+
+.piscina-2 {
+   padding-left: 50px;
+   width: 50%;
+}
+
+.rio {
+   display: flex;
+   width: 100%;
+}
+
+.rio-1 {
+   padding-left: 50px;
+   width: 50%;
+}
+
+.rio-2 {
+   padding-left: 50px;
+   width: 50%;
+}
+
+.imgBody {
+   width: 80%;
+   height: 250px;
+   padding-left: 20px;
+}
+
+.linea {
+   border-color: white;
+}
+/* FINAL INDEX */
+
+
+/* BODY OTROS HTML */
+.bodySlider-2{
+   background-color:rgb(153 1 102);
+   color: white;
+   font-size: large;
+   padding:10px 50px;
+}
+.titulo{
+   text-align: center;
+}
+.fotosSlider{
+   width:612px; 
+   height:312px;
+   padding-bottom: 30px;
+   width: 50%;
+   margin-left: 30%; 
+}
+.foto{
+   width:612px; 
+   height:312px;
+}
+/* FINAL BODY */
+
+
+

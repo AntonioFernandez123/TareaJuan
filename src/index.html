@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../node_modules/cookie-consent-js/src/cookie-consent.css">
+    <title>Main</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head-1">
+            <img src="assets/escudo.jpg" class="escudo">
+        </div>
+        <div class="head-2">
+            <h1>Turismo de Bullas - Verano</h1>
+        </div>
+        <div class="head-3">
+            <p><i class="fa-solid fa-phone"></i> +34 688 66 66 66</p>
+            <p><i class="fa-solid fa-envelope"></i> turismoBullas@info.com</p>
+        </div>
+    </div>
+    <div class="bodyIndex">
+        <h2 class="titulo-index">Piscina</h2>
+        <hr class="linea">
+        <div class="piscina">
+            <div class="piscina-1">
+                <h2 class="titulo-index">La Rafa</h2>
+                <a href="rafa.html"><img src="assets/rafa.jpeg" class="imgBody"></a>
+            </div>
+            <div class="piscina-2">
+                <h2 class="titulo-index">El Castillico</h2>
+                <a href="castillico.html"><img src="assets/castillico.jpg" class="imgBody"></a>
+            </div>
+        </div>
+        <br>
+        <hr class="linea">
+        <h2 class="titulo-index">Rio</h2>
+        <hr class="linea">
+        <div class="rio">
+            <div class="rio-1">
+                <h2 class="titulo-index">Salto Del Usero</h2>
+                <a href="saltousero.html"><img src="assets/salto.jpg" class="imgBody"></a>
+            </div>
+            <div class="rio-2">
+                <h2 class="titulo-index">La Playica</h2>
+                <a href="playica.html"><img src="assets/playica.jpg" class="imgBody"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer class="page-footer">
+            <br>
+            <div class="footer-2">
+                <div class="container">
+                    <hr class="lineaFooter">
+                    <ul class="redesSociales">
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-skype"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <hr class="lineaFooter">
+                </div>
+            </div>
+            <div class="footer-3">
+                <div class="container">
+                    <p>Copyright 2024 &copy; Todos los derechos reservados<span> | </span> Desarrollo y diseño por
+                        Antonio Fernandez Lopez</p>
+                        <a  href ="javascript:cookieConsent.reset()" > Configuración de cookies </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script src="../node_modules/cookie-consent-js/src/cookie-consent.js"></script>
+    <script>
+        var cookieConsent = new CookieConsent({
+        contentUrl: "../node_modules/cookie-consent-js/cookie-consent-content",
+        privacyPolicyUrl: "../node_modules/cookie-consent-js/examples/privacy-policy-mockup.html"
+        })
+    </script>
+</body>
+</html>
